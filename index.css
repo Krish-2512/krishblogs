@@ -1,0 +1,880 @@
+*{
+    margin:0px;
+    
+    }
+    
+    .title{
+        height:70px;
+        background-color: black;
+        color:white;
+        font-size: 25px;
+        padding-top:4px;
+        margin-left:0px;
+        padding-left:10px;
+        
+    }
+    #ucaps{
+        font-size:45px;
+    }
+    #lcaps{
+        font-size:30px;
+    }
+    
+    
+    #search{
+        padding-top:10px;
+    height:35px;
+    width:35px;
+    margin-right:20px;
+    
+    }
+    
+    .navbars{
+        background-color: (252, 252, 252);
+       height:54px;
+        display:flex;
+      flex-direction: row;
+        margin-right:0px;
+    
+    }
+    #inform{
+     color:black;
+    
+    }
+    
+    .know{
+      margin-right:20px;
+        padding-top:12px;
+        font-size:20px;
+        padding-right: 5px;
+        
+        
+        
+      
+    }
+    #thunder{
+        height:18px;
+    }
+    .attention{
+        display:flex;
+        flex-direction:row;
+        column-gap:2px;
+    }
+     #cloud{
+        height:20px;
+        width:20px;
+    }
+    .time{
+        display:flex;
+        flex-direction:row;
+        column-gap:1px;
+    }  
+    
+    
+    .bulletin{
+        background-color:rgb(225, 225, 224);
+        display:flex;
+        flex-direction:row;
+       padding-top:12px;
+       padding-bottom:12px;
+    }
+    #inform:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    
+    }
+    .know:hover{
+    background-color:black;
+    
+    cursor: pointer;
+    }
+    #mag{
+        margin-left:32%; 
+        margin-right:50px;  
+    }
+    
+    .content{
+        background-color:rgb(252, 252, 252);
+        display:flex;
+        flex-direction:row;
+        max-width: fit-content;
+        padding-top:3.125rem;
+        padding-left: 1.25rem;
+        column-gap:2.125rem;
+        
+    }
+    .small-cont{
+        display:flex;
+        flex-direction:column;
+        row-gap: 1.185rem;
+        height:30.125rem;
+    }
+    .context{
+        background-color:rgb(252, 252, 252);
+    }
+    
+    #soul{
+        height:14.375rem; 
+      
+        width:16.6rem;
+        border-radius:10px;
+    }
+    #soul:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+    #qualification{
+         height:14.375rem; 
+       
+         width:16.6rem;
+        border-radius:10px;
+      
+    }
+
+.full{
+    display:flex ; flex-direction:row ; column-gap:1.25rem;
+}
+
+    #qualification:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+    .skill{
+        position:relative;
+        display:inline-block;
+    }
+    #values{
+        position:absolute;
+        top: 40%; 
+    left: 20%; 
+    color:white;
+    
+    
+    }
+    .cri{
+        position:relative;
+        display:inline-block;
+    }
+    #values2{
+        position:absolute;
+        top: 40%; 
+    left: 40%; 
+    color:white;
+    
+    
+    }
+    .special1{
+        position:absolute;
+        top: 20%; 
+    left: 10%; 
+    color:white;
+    display:flex;
+    flex-direction:column;
+    row-gap:5px;
+}
+.special2{
+    position:absolute;
+    top: 20%; 
+left: 15%; 
+color:white;
+display:flex;
+flex-direction:column;
+row-gap:5px;
+
+}
+.special3{
+    position:absolute;
+    top: 10%; 
+left: 20%; 
+color:white;
+display:flex;
+flex-direction:column;
+row-gap:5px;
+
+}
+.special4{
+    position:absolute;
+    top: 20%; 
+left: 20%; 
+color:white;
+display:flex;
+flex-direction:column;
+row-gap:5px;
+
+}
+    #form{
+        position:relative;
+        display:inline-block;
+    }
+
+    #values3{
+        position:absolute;
+
+        bottom: 40%; 
+    left: 40%; 
+    color:white;
+    
+    
+    }
+    #form2{
+        position:relative;
+        display:inline-block;
+    }
+
+    #values4{
+    position:absolute;
+    top: 50%; 
+    left: 10%; 
+    color:white;
+    
+    
+    }
+
+
+    #skills{
+        height:30.125rem;
+        width:31.3rem;
+        border-radius:10px;
+        display:block;
+
+      
+    }
+    #skills:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+    #cric{
+        height:30.125rem;
+        border-radius:0.625rem;
+        width:16.6rem;
+      
+        
+    }
+    #cric:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+    .right-content{
+        width:80%;
+        display:flex;
+        flex-direction:row;
+        column-gap:1.25rem;
+       
+    }
+    #features{
+        background-color: black;
+        border-radius:3px;
+    }
+    
+    
+    .top-part{
+        display:flex;
+        flex-direction:row;
+        border-radius: 0.625rem;
+        margin-left:0px;
+        border-color: black;
+        border-radius:4px;
+        background-color: rgb(252, 252, 252);
+        
+    }
+    .left-content{
+    width:fit-content;
+    margin-left:1.25rem;
+    display:flex;
+    height:484.4px;
+    flex-direction:column;
+    row-gap:10px;
+    margin-right:0.625rem;
+    background-color: rgb(252, 252, 252);
+    
+    
+    }
+    .Latest{
+       padding:1.875rem;
+       padding-right:2rem;
+       font-size:20px; 
+       background-color: white;
+       border-radius:0.625rem;
+       
+    }
+    .Latest:hover{
+       cursor:pointer;
+       color:white;
+       background-color: black;
+    }
+    
+    .Popular{
+        padding:1.875rem; 
+        padding-right:5rem;
+        padding-left:2rem;
+        border-radius:0.625rem;
+        font-size:20px;
+        background-color: white;
+      
+        
+    }
+    .Popular:hover{
+        cursor:pointer;
+        color:white;
+       background-color: black;
+     }
+     
+    .caln{
+        display:flex;
+        flex-direction: row;
+    }
+    #cal{
+        height:25px;
+        width:25px;
+    }
+    .low-part{
+        display:flex;
+        flex-direction:column;
+        row-gap:10px;
+        height:390px;
+        background-color: rgb(252, 252, 252);
+        width:357.4px;
+        overflow:auto;
+    }
+    #web1{
+        height:80px;
+        width:80px;
+
+        
+    }
+    #web1:hover{
+        opacity:0.8;
+        cursor:pointer;
+        
+    }
+    #web2{
+        height:80px;
+        width:80px;
+        
+    }
+    #web2:hover{
+        opacity:0.8;
+        cursor:pointer;
+        
+    }
+    #web3{
+        height:80px;
+        width:80px;
+  
+        
+    }
+    #web3:hover{
+        opacity:0.8;
+        cursor:pointer;
+        
+    }
+    #web4{
+        height:80px;
+        width:80px;
+        
+    }
+    #web4:hover{
+        
+        cursor:pointer;
+        opacity:0.8;
+    }
+    #web5{
+        height:80px;
+        width:80px;
+        
+    }
+    #web5:hover{
+        opacity:0.8;
+        cursor:pointer;
+        
+    }
+    #web6{
+        height:80px;
+        width:80px;
+        
+    }
+    #web6:hover{
+        opacity:0.8;
+        cursor:pointer;
+        
+    }
+    
+    .text1{
+        background-color: white;
+        display:flex;
+        flex-direction:column;
+        row-gap:10px;
+    }
+    #info{
+       font-size:18px; 
+    }
+    #caln{
+        display:flex;
+        flex-direction:row;
+        column-gap:15px;
+    }
+    .first-cont{
+        display: flex;
+        flex-direction: row;
+        column-gap:12px;
+        padding-bottom:5px;
+        padding-top:5px;
+        border-radius:4px;
+        background-color:white;
+        border-color: black;
+        
+    
+    }
+
+    @media  (min-width:1090px ) and ( max-width:1296px){
+      .content{
+        display:flex;
+        flex-direction:column;
+        row-gap:20px;
+      }
+      .bulletin{
+        background-color:rgb(225, 225, 224);
+        display:flex;
+        flex-direction:row;
+        flex:0.1 0.2 1;
+       padding-top:12px;
+       padding-bottom:12px;
+      }
+      
+        #mag{
+            margin-left:18%;
+            margin-right:100px;
+        }
+       
+
+    
+    }
+    @media  (min-width:1027px ) and ( max-width:1090px){
+
+        .content{
+            display:flex;
+            flex-direction:column;
+            row-gap:20px;
+          }
+          #mag{
+            margin-left:12%;
+            margin-right:80px;
+        }
+        #skills{
+            height:25.375rem;
+            width:31.3rem;
+            border-radius:10px;
+            display:block;
+    
+          
+        }
+        #cric{
+            height:25.375rem;
+            border-radius:0.625rem;
+            width:16.6rem;
+          
+            
+        }
+        #qualification{
+            height:12.375rem; 
+          
+            width:12.6rem;
+           border-radius:10px;
+         
+       }
+       #soul{
+        height:12.375rem; 
+      
+        width:12.6rem;
+        border-radius:10px;
+    }
+    #feature{
+        font-size: 18px;
+    }
+    #type1{
+        font-size: 18px;   
+    }
+.small-count{
+    font-size:18px;
+}
+#values3{
+  bottom:20%;
+  left:20%
+}
+#mag{
+margin-left:5%;
+margin-right:10px;
+
+}}
+@media  (min-width:900px ) and ( max-width:1027px){
+   .know{
+    margin-right:10px;
+   }
+}
+
+@media  (min-width:730px ) and ( max-width:1027px){
+    #skills{
+        height:30.375rem;
+        width:20.3rem;
+        border-radius:10px;
+        display:block;
+
+      
+    }
+    #cric{
+        height:30.375rem;
+        border-radius:0.625rem;
+        width:10.6rem;
+      
+        
+    }
+    #qualification{
+        height:14.375rem; 
+      
+        width:10.6rem;
+       border-radius:10px;
+     
+   }
+   #soul{
+    height:14.375rem; 
+  
+    width:10.6rem;
+    border-radius:10px;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    row-gap:20px;
+  }
+  #mag{
+    margin-left:10px;;
+
+}
+#feature{
+    font-size: 14px;
+}
+#type1{
+    font-size: 14px;   
+}
+#values3{
+    bottom:20%;
+    left:10%;
+  }
+#values4{
+    bottom:0%;
+    left:5%;
+    font-size: 14px;   
+  }
+.special4{
+    top:0%;
+  }
+ #values2{
+    top:50%;
+    left:10%;
+ }
+
+ .navbars{
+    display:flex;
+    flex-direction:row;
+    column-gap: 2px;
+
+
+ }
+ .know{
+    margin-right:5px;
+    font-size:18px;
+    
+   }
+
+
+
+    }
+    @media  (min-width:500px ) and ( max-width:730px){
+
+
+
+.content{
+ display:flex;
+flex-direction:column;
+row-gap:20px;}
+          
+.right-content{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#values3{
+    bottom:20%;
+    left:0%;
+  }
+#values4{
+    bottom:0%;
+    left:5%;
+    font-size: 14px;   
+  }
+.special4{
+    top:0%;
+    left:2%;
+    font-size: 12px;  
+  }
+  .special3{
+    top:10%;
+    left:2%;
+    font-size: 12px;  
+  }
+
+  .navbars{
+    padding-top:10px;
+  }
+  .know{
+    margin-right:3px;
+    font-size:12px;
+    
+    
+   }
+   #mag{
+    margin-left:10px;;
+
+}
+#skills{
+    height:30.375rem;
+    width:18.3rem;
+    border-radius:10px;
+    display:block;
+
+  
+}
+#cric{
+    height:30.375rem;
+    border-radius:0.625rem;
+    width:11rem;
+  
+    
+}
+.special1{
+left:10%;
+font-size:14px;
+
+}
+#values2{
+    top:60%;
+    left:10%;
+  }
+  .bulletin{
+    font-size:12px;
+    
+
+    }  }
+@media (min-width:393px) and (max-width:500px){
+  
+      
+    .content{
+        display:flex;
+       flex-direction:column;
+       row-gap:20px;}
+                 
+       .right-content{
+       
+           display: flex;
+           flex-direction: column;
+           row-gap: 20px;
+       }
+
+       .full{
+       display:flex;
+       flex-direction:column;
+       row-gap:20px;
+
+
+       }
+       #values3{
+           bottom:20%;
+           left:0%;
+         }
+       #values4{
+           bottom:0%;
+           left:5%;
+           font-size: 14px;   
+         }
+       .special4{
+           top:0%;
+           left:2%;
+           font-size: 12px;  
+         }
+         .special3{
+           top:10%;
+           left:2%;
+           font-size: 12px;  
+         }
+       
+         .navbars{
+           padding-top:10px;
+           
+        
+         }
+         .know{
+           margin-right:2px;
+           font-size:10px;
+           
+           
+          }
+          #mag{
+           margin-left:1px;
+          
+       
+       }
+       #search{
+        height:15px;
+        width:3px;
+       }
+       #skills{
+           height:30.375rem;
+           width:18.3rem;
+           border-radius:10px;
+           display:block;
+       
+         
+       }
+       #cric{
+           height:30.375rem;
+           border-radius:0.625rem;
+           width:16.35rem;
+         
+           
+       }
+       .special1{
+       left:10%;
+       font-size:14px;
+       row-gap: 3;
+       
+       }
+       #values2{
+           top:60%;
+           left:1%;
+         }
+
+
+         .special2{
+            left:0%;
+            font-size:13px;
+         }
+         .bulletin{
+           font-size:12px;
+           
+       
+         }
+       
+         
+           }    
+@media (max-width:393px){
+
+    .content{
+        display:flex;
+       flex-direction:column;
+       row-gap:20px;}
+                 
+       .right-content{
+       
+           display: flex;
+           flex-direction: column;
+           row-gap: 20px;
+       }
+
+       .full{
+       display:flex;
+       flex-direction:column;
+       row-gap:20px;
+
+
+       }
+       #values3{
+           bottom:20%;
+           left:0%;
+         }
+       #values4{
+           bottom:0%;
+           left:5%;
+           font-size: 14px;   
+         }
+       .special4{
+           top:0%;
+           left:2%;
+           font-size: 12px;  
+         }
+         .special3{
+           top:10%;
+           left:2%;
+           font-size: 12px;  
+         }
+       
+         .navbars{
+           padding-top:10px;
+           
+        
+         }
+         .know{
+           margin-right:2px;
+           font-size:8px;
+           
+           
+          }
+          #mag{
+           margin-left:1px;
+          
+       
+       }
+       #search{
+        height:15px;
+        width:3px;
+       }
+       #skills{
+           height:30.375rem;
+           width:18.3rem;
+           border-radius:10px;
+           display:block;
+       
+         
+       }
+       #cric{
+           height:30.375rem;
+           border-radius:0.625rem;
+           width:16.35rem;
+         
+           
+       }
+       .special1{
+       left:10%;
+       font-size:14px;
+       row-gap: 3;
+       
+       }
+       #values2{
+           top:60%;
+           left:1%;
+         }
+
+
+         .special2{
+            left:0%;
+            font-size:13px;
+         }
+         .bulletin{
+           font-size:12px;
+           
+       
+         }
+         
+       
+         
+           }  
+
+
+
+    
+    
