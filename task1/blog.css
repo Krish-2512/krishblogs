@@ -1,0 +1,595 @@
+*{
+    margin:0px;
+    
+    }
+    
+    .title{
+        height:70px;
+        background-color: black;
+        color:white;
+        font-size: 25px;
+        padding-top:4px;
+        margin-left:0px;
+        padding-left:10px;
+        
+    }
+    #ucaps{
+        font-size:45px;
+    }
+    #lcaps{
+        font-size:30px;
+    }
+    
+    
+    #search{
+        padding-top:10px;
+    height:35px;
+    width:35px;
+    margin-right:20px;
+    
+    }
+    
+    .navbars{
+        background-color: (252, 252, 252);
+       height:54px;
+        display:flex;
+      flex-direction: row;
+        margin-right:0px;
+    
+    }
+    #inform{
+     color:black;
+    
+    }
+    
+    .know{
+      
+        padding-top:12px;
+        font-size:20px;
+        margin-right: 20px;
+       
+        padding-right:5px;
+    }
+    #thunder{
+        height:18px;
+    }
+    .attention{
+        display:flex;
+        flex-direction:row;
+        column-gap:2px;
+    }
+     #cloud{
+        height:20px;
+        width:20px;
+    }
+    .time{
+        display:flex;
+        flex-direction:row;
+        column-gap:1px;
+    }  
+    
+    
+    .bulletin{
+        background-color:rgb(225, 225, 224);
+        display:flex;
+        flex-direction:row;
+       padding-top:12px;
+       padding-bottom:12px;
+    }
+    #inform:hover{
+    background-color:black;
+    color:white;
+    cursor: pointer;
+    
+    }
+    .know:hover{
+    background-color:black;
+    
+    cursor: pointer;
+    }
+    #mag{
+        margin-left:30%;   
+    }
+    .content{
+        background-color:rgb(252, 252, 252);
+        display:flex;
+        flex-direction:row;
+        max-width: fit-content;
+        padding-top:3.125rem;
+        padding-left: 1.25rem;
+        column-gap:3.125rem;
+        
+    }
+    .small-cont{
+        display:flex;
+        flex-direction:column;
+        row-gap: 1.188rem;
+        height:30.125rem;
+    }
+    .context{
+        background-color:rgb(252, 252, 252);
+    }
+    
+    #soul{
+        height:14.375rem; 
+      
+        width:16.6rem;
+        border-radius:10px;
+    }
+
+    #soul:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+    #qualification{
+         height:14.375rem; 
+       
+         width:16.6rem;
+        border-radius:10px;
+      
+    }
+
+    #qualification:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+    #skills{
+        height:30.125rem;
+        width:31.3rem;
+        border-radius:10px;
+      
+    }
+    #skills:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+    #cric{
+        height:30.125rem;
+        border-radius:0.625rem;
+        width:16.6rem;}
+    #cric:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+
+
+    .right-content{
+        width:80%;
+        display:flex;
+        flex-direction:row;
+        column-gap:1.25rem;
+       
+    }
+    
+    .top-part{
+        display:flex;
+        flex-direction:row;
+        border-radius: 0.625rem;
+        margin-left:0px;
+        border-color: black;
+        border-radius:4px;
+        background-color: rgb(252, 252, 252);
+        
+    }
+    .left-content{
+    width:fit-content;
+    margin-left:1.25rem;
+    display:flex;
+    flex-direction:column;
+    row-gap:10px;
+    margin-right:0.625rem;
+    background-color: rgb(252, 252, 252);
+    
+    
+    }
+    .Latest{
+       padding:1.875rem;
+       padding-right:2rem;
+       font-size:20px; 
+       background-color: white;
+       border-radius:0.625rem;
+       
+    }
+    .Latest:hover{
+       cursor:pointer;
+       color:white;
+       background-color: black;
+    }
+    
+    .Popular{
+        padding:1.875rem; 
+        padding-right:5rem;
+        padding-left:2rem;
+        border-radius:0.625rem;
+        font-size:20px;
+        background-color: white;
+      
+        
+    }
+    .Popular:hover{
+        cursor:pointer;
+        color:white;
+       background-color: black;
+     }
+     
+    .caln{
+        display:flex;
+        flex-direction: row;
+    }
+    #cal{
+        height:25px;
+        width:25px;
+    }
+    .low-part{
+        display:flex;
+        flex-direction:column;
+        row-gap:10px;
+        background-color: rgb(252, 252, 252);
+    }
+    #web1{
+        height:80px;
+        width:80px;
+        
+    }
+    #web1:hover{
+        cursor:pointer;
+        opacity:0.8;
+    }
+    .text1{
+        background-color: white;
+        display:flex;
+        flex-direction:column;
+        row-gap:10px;
+    }
+    #info{
+       font-size:18px; 
+    }
+    #caln{
+        display:flex;
+        flex-direction:row;
+        column-gap:15px;
+    }
+    .first-cont{
+        display: flex;
+        flex-direction: row;
+        column-gap:12px;
+        padding-bottom:5px;
+        padding-top:5px;
+        border-radius:4px;
+        background-color:white;
+        border-color: black;
+        
+        
+    
+    }
+
+
+
+    @media  (min-width:1090px ) and ( max-width:1296px){
+        .content{
+          display:flex;
+          flex-direction:column;
+          row-gap:20px;
+        }
+        .bulletin{
+          background-color:rgb(225, 225, 224);
+          display:flex;
+          flex-direction:row;
+          flex:0.1 0.2 1;
+         padding-top:12px;
+         padding-bottom:12px;
+        }
+        
+          #mag{
+              margin-left:18%;
+              margin-right:100px;
+          }
+         
+  
+      
+      }
+      @media  (min-width:1027px ) and ( max-width:1090px){
+  
+          .content{
+              display:flex;
+              flex-direction:column;
+              row-gap:20px;
+            }
+            #mag{
+              margin-left:12%;
+              margin-right:80px;
+          }
+          #skills{
+              height:25.375rem;
+              width:31.3rem;
+              border-radius:10px;
+              display:block;
+      
+            
+          }
+          #cric{
+              height:25.375rem;
+              border-radius:0.625rem;
+              width:16.6rem;
+            
+              
+          }
+          #qualification{
+              height:12.375rem; 
+            
+              width:12.6rem;
+             border-radius:10px;
+           
+         }
+         #soul{
+          height:12.375rem; 
+        
+          width:12.6rem;
+          border-radius:10px;
+      }
+      
+  .small-count{
+      font-size:18px;
+  }
+  
+  #mag{
+  margin-left:5%;
+  margin-right:10px;
+  
+  }}
+  @media  (min-width:900px ) and ( max-width:1027px){
+     .know{
+      margin-right:10px;
+     }
+  }
+  
+  @media  (min-width:730px ) and ( max-width:1027px){
+      #skills{
+          height:30.375rem;
+          width:20.3rem;
+          border-radius:10px;
+          display:block;
+  
+        
+      }
+      #cric{
+          height:30.375rem;
+          border-radius:0.625rem;
+          width:10.6rem;
+        
+          
+      }
+      #qualification{
+          height:14.375rem; 
+        
+          width:10.6rem;
+         border-radius:10px;
+       
+     }
+     #soul{
+      height:14.375rem; 
+    
+      width:10.6rem;
+      border-radius:10px;
+  }
+  .content{
+      display:flex;
+      flex-direction:column;
+      row-gap:20px;
+    }
+    #mag{
+      margin-left:10px;;
+  
+  }
+ 
+  
+   .navbars{
+      display:flex;
+      flex-direction:row;
+      column-gap: 2px;
+  
+  
+   }
+   .know{
+      margin-right:5px;
+      font-size:18px;
+      
+     }
+  
+  
+  
+      }
+      @media  (min-width:500px ) and ( max-width:730px){
+  
+  
+  
+  .content{
+   display:flex;
+  flex-direction:column;
+  row-gap:20px;}
+            
+  .right-content{
+  
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+  }
+
+  
+    .navbars{
+      padding-top:10px;
+    }
+    .know{
+      margin-right:3px;
+      font-size:12px;
+      
+      
+     }
+     #mag{
+      margin-left:10px;;
+  
+  }
+  #skills{
+      height:30.375rem;
+      width:18.3rem;
+      border-radius:10px;
+      display:block;
+  
+    
+  }
+  #cric{
+      height:30.375rem;
+      border-radius:0.625rem;
+      width:11rem;
+    
+      
+  }
+  
+    .bulletin{
+      font-size:12px;
+      
+  
+      }  }
+  @media (min-width:393px) and (max-width:500px){
+    
+        
+      .content{
+          display:flex;
+         flex-direction:column;
+         row-gap:20px;}
+                   
+         .right-content{
+         
+             display: flex;
+             flex-direction: column;
+             row-gap: 20px;
+         }
+  
+         .full{
+         display:flex;
+         flex-direction:column;
+         row-gap:20px;
+  
+  
+         }
+        
+         
+           .navbars{
+             padding-top:10px;
+             
+          
+           }
+           .know{
+             margin-right:2px;
+             font-size:10px;
+             
+             
+            }
+            #mag{
+             margin-left:1px;
+            
+         
+         }
+         #search{
+          height:15px;
+          width:3px;
+         }
+         #skills{
+             height:30.375rem;
+             width:18.3rem;
+             border-radius:10px;
+             display:block;
+         
+           
+         }
+         #cric{
+             height:30.375rem;
+             border-radius:0.625rem;
+             width:16.35rem;
+           
+             
+         }
+         
+           .bulletin{
+             font-size:12px;
+             
+         
+           }
+         
+           
+             }    
+  @media (max-width:393px){
+  
+      .content{
+          display:flex;
+         flex-direction:column;
+         row-gap:20px;}
+                   
+         .right-content{
+         
+             display: flex;
+             flex-direction: column;
+             row-gap: 20px;
+         }
+  
+         .full{
+         display:flex;
+         flex-direction:column;
+         row-gap:20px;
+  
+  
+         }
+       
+         
+           .navbars{
+             padding-top:10px;
+             
+          
+           }
+           .know{
+             margin-right:2px;
+             font-size:8px;
+             
+             
+            }
+            #mag{
+             margin-left:1px;
+            
+         
+         }
+         #search{
+          height:15px;
+          width:3px;
+         }
+         #skills{
+             height:30.375rem;
+             width:18.3rem;
+             border-radius:10px;
+             display:block;
+         
+           
+         }
+         #cric{
+             height:30.375rem;
+             border-radius:0.625rem;
+             width:16.35rem;
+           
+             
+         }
+         
+           .bulletin{
+             font-size:12px;
+             
+         
+           }
+           
+         
+           
+             }  
+  
+  
+  
+      
+      
+    
